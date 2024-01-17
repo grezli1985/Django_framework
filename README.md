@@ -1,0 +1,3 @@
+        homeworks/
+        myproject/
+        seminar/

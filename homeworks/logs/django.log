@@ -1,0 +1,143 @@
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:26:33,084 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:29:19,499 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-17 13:29:29,408 : log_response @ 0241: Not Found: /
+[WARNING :             django.server] - 2024-01-17 13:29:29,409 : log_message @ 0212: "GET / HTTP/1.1" 404 2169
+[WARNING :            django.request] - 2024-01-17 13:30:22,669 : log_response @ 0241: Not Found: /tasks_1
+[WARNING :             django.server] - 2024-01-17 13:30:22,670 : log_message @ 0212: "GET /tasks_1 HTTP/1.1" 404 2208
+[INFO    :             django.server] - 2024-01-17 13:30:42,680 : log_message @ 0212: "GET /task_1/ HTTP/1.1" 200 363
+[INFO    :             django.server] - 2024-01-17 13:30:58,583 : log_message @ 0212: "GET /task_1/about HTTP/1.1" 301 0
+[INFO    :             django.server] - 2024-01-17 13:30:58,593 : log_message @ 0212: "GET /task_1/about/ HTTP/1.1" 200 345
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:31:27,803 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/homeworks/urls.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:31:28,745 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:31:31,579 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 338
+[INFO    :             django.server] - 2024-01-17 13:31:35,088 : log_message @ 0212: "GET / HTTP/1.1" 200 356
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:32:37,186 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:32:38,209 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:33:25,313 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:33:26,037 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:34:01,530 : log_message @ 0212: "GET / HTTP/1.1" 200 325
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:38:08,666 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:38:09,608 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:38:56,336 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:38:57,163 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:38:59,756 : log_message @ 0212: "GET / HTTP/1.1" 200 948
+[WARNING :            django.request] - 2024-01-17 13:38:59,900 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:38:59,904 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :             django.server] - 2024-01-17 13:38:59,906 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:39:02,601 : log_response @ 0241: Not Found: /main/
+[WARNING :             django.server] - 2024-01-17 13:39:02,602 : log_message @ 0212: "GET /main/ HTTP/1.1" 404 2423
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:39:59,500 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:40:00,535 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:40:07,736 : log_message @ 0212: "GET / HTTP/1.1" 200 947
+[WARNING :             django.server] - 2024-01-17 13:40:07,856 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:40:07,857 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:40:07,858 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :            django.request] - 2024-01-17 13:40:27,825 : log_response @ 0241: Not Found: /main/
+[WARNING :             django.server] - 2024-01-17 13:40:27,826 : log_message @ 0212: "GET /main/ HTTP/1.1" 404 2423
+[WARNING :            django.request] - 2024-01-17 13:40:45,402 : log_response @ 0241: Not Found: /main/
+[WARNING :             django.server] - 2024-01-17 13:40:45,402 : log_message @ 0212: "GET /main/ HTTP/1.1" 404 2423
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:40:45,551 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:40:46,580 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:40:53,946 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:40:54,594 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[WARNING :            django.request] - 2024-01-17 13:40:56,012 : log_response @ 0241: Not Found: /main/
+[WARNING :             django.server] - 2024-01-17 13:40:56,012 : log_message @ 0212: "GET /main/ HTTP/1.1" 404 2423
+[INFO    :             django.server] - 2024-01-17 13:41:08,235 : log_message @ 0212: "GET / HTTP/1.1" 200 949
+[WARNING :            django.request] - 2024-01-17 13:41:08,319 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:41:08,320 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :             django.server] - 2024-01-17 13:41:08,321 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:41:09,905 : log_response @ 0241: Not Found: /index/
+[WARNING :             django.server] - 2024-01-17 13:41:09,905 : log_message @ 0212: "GET /index/ HTTP/1.1" 404 2426
+[INFO    :             django.server] - 2024-01-17 13:41:12,216 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 314
+[WARNING :            django.request] - 2024-01-17 13:41:23,196 : log_response @ 0241: Not Found: /index/
+[WARNING :             django.server] - 2024-01-17 13:41:23,196 : log_message @ 0212: "GET /index/ HTTP/1.1" 404 2426
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:41:42,047 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:41:43,157 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:41:44,302 : log_message @ 0212: "GET / HTTP/1.1" 200 943
+[WARNING :            django.request] - 2024-01-17 13:41:44,556 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:41:44,557 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :             django.server] - 2024-01-17 13:41:44,817 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[INFO    :             django.server] - 2024-01-17 13:41:59,531 : log_message @ 0212: "GET / HTTP/1.1" 200 943
+[WARNING :             django.server] - 2024-01-17 13:41:59,649 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:41:59,655 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:41:59,655 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[INFO    :             django.server] - 2024-01-17 13:42:01,151 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 314
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:49:09,673 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:49:10,483 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:49:13,523 : log_message @ 0212: "GET / HTTP/1.1" 200 909
+[WARNING :            django.request] - 2024-01-17 13:49:13,718 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:49:13,718 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :             django.server] - 2024-01-17 13:49:13,720 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[INFO    :             django.server] - 2024-01-17 13:49:15,933 : log_message @ 0212: "GET / HTTP/1.1" 200 909
+[WARNING :            django.request] - 2024-01-17 13:49:16,028 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:49:16,029 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :             django.server] - 2024-01-17 13:49:16,029 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[INFO    :             django.server] - 2024-01-17 13:49:17,240 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 929
+[WARNING :            django.request] - 2024-01-17 13:49:17,338 : log_response @ 0241: Not Found: /about/{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:49:17,338 : log_message @ 0212: "GET /about/%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2678
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:49:40,409 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:49:41,228 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:51:04,661 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:51:05,524 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:51:10,455 : log_message @ 0212: "GET / HTTP/1.1" 200 914
+[WARNING :            django.request] - 2024-01-17 13:51:10,613 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:51:10,613 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :             django.server] - 2024-01-17 13:51:10,614 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:51:51,870 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:51:52,837 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:51:53,820 : log_message @ 0212: "GET / HTTP/1.1" 200 914
+[WARNING :            django.request] - 2024-01-17 13:51:53,943 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:51:53,943 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :             django.server] - 2024-01-17 13:51:53,953 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[INFO    :             django.server] - 2024-01-17 13:51:57,644 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 820
+[WARNING :            django.request] - 2024-01-17 13:51:57,747 : log_response @ 0241: Not Found: /about/{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:51:57,748 : log_message @ 0212: "GET /about/%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2678
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:53:06,289 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:53:07,312 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:53:07,821 : log_message @ 0212: "GET / HTTP/1.1" 200 888
+[WARNING :            django.request] - 2024-01-17 13:53:08,110 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:53:08,111 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :             django.server] - 2024-01-17 13:53:08,112 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[INFO    :             django.server] - 2024-01-17 13:53:10,450 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 796
+[WARNING :            django.request] - 2024-01-17 13:53:10,522 : log_response @ 0241: Not Found: /about/{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:53:10,522 : log_message @ 0212: "GET /about/%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2678
+[INFO    :             django.server] - 2024-01-17 13:53:11,713 : log_message @ 0212: "GET / HTTP/1.1" 200 888
+[WARNING :             django.server] - 2024-01-17 13:53:11,797 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:53:11,799 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:53:11,801 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[INFO    :             django.server] - 2024-01-17 13:53:13,507 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 796
+[WARNING :            django.request] - 2024-01-17 13:53:13,576 : log_response @ 0241: Not Found: /about/{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:53:13,577 : log_message @ 0212: "GET /about/%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2678
+[INFO    :             django.server] - 2024-01-17 13:53:14,517 : log_message @ 0212: "GET / HTTP/1.1" 200 888
+[WARNING :             django.server] - 2024-01-17 13:53:14,606 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:53:14,614 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:53:14,618 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[INFO    :             django.server] - 2024-01-17 13:53:16,279 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 796
+[WARNING :            django.request] - 2024-01-17 13:53:16,348 : log_response @ 0241: Not Found: /about/{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:53:16,348 : log_message @ 0212: "GET /about/%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2678
+[INFO    :             django.server] - 2024-01-17 13:53:35,685 : log_message @ 0212: "GET / HTTP/1.1" 200 888
+[WARNING :            django.request] - 2024-01-17 13:53:35,832 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:53:35,833 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[WARNING :             django.server] - 2024-01-17 13:53:35,835 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:53:59,379 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:54:00,270 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:54:00,572 : log_message @ 0212: "GET / HTTP/1.1" 200 887
+[WARNING :            django.request] - 2024-01-17 13:54:00,676 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:54:00,676 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :             django.server] - 2024-01-17 13:54:00,677 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[INFO    :             django.server] - 2024-01-17 13:54:03,632 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 804
+[WARNING :            django.request] - 2024-01-17 13:54:03,706 : log_response @ 0241: Not Found: /about/{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:54:03,706 : log_message @ 0212: "GET /about/%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2678
+[INFO    :             django.server] - 2024-01-17 13:54:06,653 : log_message @ 0212: "GET / HTTP/1.1" 200 887
+[WARNING :             django.server] - 2024-01-17 13:54:06,771 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:54:06,786 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:54:06,787 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:54:38,276 : trigger_reload @ 0266: /Users/sergey/учеба/Django_framework/homeworks/tasks_1/views.py changed, reloading.
+[INFO    :   django.utils.autoreload] - 2024-01-17 13:54:39,155 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :             django.server] - 2024-01-17 13:54:40,571 : log_message @ 0212: "GET /about/ HTTP/1.1" 200 802
+[WARNING :            django.request] - 2024-01-17 13:54:40,680 : log_response @ 0241: Not Found: /about/{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:54:40,681 : log_message @ 0212: "GET /about/%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2678
+[INFO    :             django.server] - 2024-01-17 13:54:44,593 : log_message @ 0212: "GET / HTTP/1.1" 200 887
+[WARNING :             django.server] - 2024-01-17 13:54:44,682 : log_message @ 0212: "GET /static/css/bootstrap.min.css HTTP/1.1" 404 1822
+[WARNING :            django.request] - 2024-01-17 13:54:44,686 : log_response @ 0241: Not Found: /{ url_for('static', filename='js/bootstrap.bundle.min.js') }
+[WARNING :             django.server] - 2024-01-17 13:54:44,687 : log_message @ 0212: "GET /%7B%20url_for('static',%20filename='js/bootstrap.bundle.min.js')%20%7D HTTP/1.1" 404 2660
