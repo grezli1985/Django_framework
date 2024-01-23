@@ -1,0 +1,21 @@
+[INFO    :   django.utils.autoreload] - 2024-01-19 14:03:25,341 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               app_1.views] - 2024-01-19 14:03:29,408 : index @ 0011: index get request
+[INFO    :             django.server] - 2024-01-19 14:03:29,500 : log_message @ 0212: "GET / HTTP/1.1" 200 13
+[INFO    :               app_1.views] - 2024-01-19 14:03:50,662 : coin_flip @ 0022: Coin flipped at side: Tails
+[INFO    :             django.server] - 2024-01-19 14:03:50,662 : log_message @ 0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-19 14:03:54,654 : coin_flip @ 0022: Coin flipped at side: Heads
+[INFO    :             django.server] - 2024-01-19 14:03:54,654 : log_message @ 0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-19 14:03:56,272 : coin_flip @ 0022: Coin flipped at side: Heads
+[INFO    :             django.server] - 2024-01-19 14:03:56,273 : log_message @ 0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-19 14:05:06,786 : coin_flip @ 0022: Coin flipped at side: Heads
+[INFO    :             django.server] - 2024-01-19 14:05:06,791 : log_message @ 0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :               app_1.views] - 2024-01-19 14:05:08,246 : coin_flip @ 0022: Coin flipped at side: Heads
+[INFO    :             django.server] - 2024-01-19 14:05:08,247 : log_message @ 0212: "GET /coin/ HTTP/1.1" 200 23
+[INFO    :             django.server] - 2024-01-19 15:10:11,307 : log_message @ 0212: "GET /c/ HTTP/1.1" 200 425
+[INFO    :   django.utils.autoreload] - 2024-01-22 13:46:12,869 : run_with_reloader @ 0668: Watching for file changes with StatReloader
+[INFO    :               app_1.views] - 2024-01-22 13:46:21,334 : index @ 0011: index get request
+[INFO    :             django.server] - 2024-01-22 13:46:21,336 : log_message @ 0212: "GET / HTTP/1.1" 200 13
+[INFO    :             django.server] - 2024-01-22 13:46:31,650 : log_message @ 0212: "GET /authors/ HTTP/1.1" 200 579
+[INFO    :             django.server] - 2024-01-22 13:48:03,817 : log_message @ 0212: "GET /authors/ HTTP/1.1" 200 579
+[INFO    :             django.server] - 2024-01-22 13:48:29,826 : log_message @ 0212: "GET /authors/ HTTP/1.1" 200 579
+[INFO    :             django.server] - 2024-01-22 13:48:44,550 : log_message @ 0212: "GET /posts/ HTTP/1.1" 200 2435
