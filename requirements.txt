@@ -1,0 +1,16 @@
+asgiref==3.7.2
+Django==5.0.1
+django-classy-tags==4.1.0
+django-cms==4.1.0
+django-debug-toolbar==4.3.0
+django-formtools==2.5.1
+django-sekizai==4.1.0
+django-treebeard==4.7
+djangocms-admin-style==3.3.0
+packaging==23.2
+pillow==10.2.0
+sqlparse==0.4.4
+typing_extensions==4.9.0
+tzdata==2023.4
+mysqlclient
+python-dotenv

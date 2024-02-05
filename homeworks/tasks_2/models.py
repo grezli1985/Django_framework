@@ -1,3 +1,4 @@
+from django.core.validators import RegexValidator
 from django.db import models
 
 '''
@@ -8,12 +9,16 @@ from django.db import models
 ○ адрес клиента
 ○ дата регистрации клиента
 '''
+for_phone_number_validation = \
+    RegexValidator(
+        regex=r"^[0-9]{3,11}$",
+        message="Номер телефона должен быть в длину от 3 до 11 символов и состоять только из цифр.")
 
 
 class User(models.Model):
     name = models.CharField(max_length=100)
     email = models.EmailField()
-    phone = models.CharField(max_length=100)
+    phone = models.CharField(validators=[for_phone_number_validation], max_length=11)
     address = models.CharField(max_length=200)
     registration_date = models.DateTimeField(auto_now_add=True)
 

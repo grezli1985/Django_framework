@@ -9,15 +9,15 @@ class Coin(models.Model):
     def get_coin_stats(number: int) -> dict:
         last_flips = Coin.objects.all()[:number]
         flips_stats = {
-            'heads': [],
-            'tails': []
+            'Орел': [],
+            'Решка': []
         }
 
         for coin in last_flips:
             if coin.is_heads:
-                flips_stats['heads'].append(coin.flip_time)
+                flips_stats['Орел'].append(coin.flip_time)
             else:
-                flips_stats['tails'].append(coin.flip_time)
+                flips_stats['Решка'].append(coin.flip_time)
 
         return flips_stats
 
@@ -36,7 +36,7 @@ class Author(models.Model):
         return f'{self.name} {self.last_name}'
 
     def __str__(self):
-        return f'Author: {self.name} {self.last_name}, email: {self.email}'
+        return f'Author: {self.name} {self.last_name}, birthday: {self.birthday}'
 
 
 class Post(models.Model):

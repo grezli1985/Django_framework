@@ -1,4 +1,4 @@
-from random import randint
+from random import choice, randint, uniform
 from django.core.management.base import BaseCommand, CommandParser
 
 from tasks_2.models import Product
@@ -17,8 +17,8 @@ class Command(BaseCommand):
             product = Product(
                 title=f'Product {i}',
                 description=f'Description of product {i}',
-                price=1000.00,
-                quantity=randint(1, 10),
+                price=uniform(0.01, 999_999.99),
+                quantity=randint(1, 10_000),
             )
             self.stdout.write(self.style.SUCCESS(f'Added new order: {product}'))
             product.save()
