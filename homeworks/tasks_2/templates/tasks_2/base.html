@@ -1,12 +1,11 @@
-{% load static %}
 <!doctype html>
 <html lang="ru">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="{% static 'tasks_2/css/styles.css' %}">
-    <link href="{% static 'homeworks/staticfiles/tasks_2/css/styles.css' %}" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@600;700;800&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+<!--    <link rel="stylesheet" href="{% static 'css/styles.css' %}">-->
+<!--    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">-->
+<!--    <link rel="stylesheet" href="css/style.css">-->
     <title>{% block title %}{{ title }}{% endblock %}</title>
 </head>
 <body>
@@ -15,12 +14,9 @@
         <ul class="nav nav-pills justify-content-end align-items-end">
             <li class="nav-item"><a href="/" class="nav-link">Главная</a></li>
             <li class="nav-item"><a href="about/" class="nav-link">Обо мне</a></li>
+            <li class="nav-item"><a href="user/add/" class="nav-link">Клиент</a></li>
         </ul>
             {% block content %}
-
-            {% endblock %}
-
-            {% block image %}
 
             {% endblock %}
 

@@ -7,5 +7,14 @@
     <h1>Приветствую на моём сайте!</h1>
     <p>Это главная страница</p>
 
+    <h2>Пользователь</h2>
+
+
+    <h2>Загрузите изображение</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Загрузить</button>
+    </form>
 
 {% endblock %}

@@ -40,17 +40,17 @@ INTERNAL_IPS = [
 ]
 
 
-def show_toolbar(request):           # <-- NEW
-    return True                      # <-- NEW
-
-
-DEBUG_TOOLBAR_CONFIG = {                     # <-- NEW
-    "SHOW_TOOLBAR_CALLBACK": show_toolbar,   # <-- NEW
-}                                            # <-- NEW
-
-if DEBUG:                                                      # <-- NEW
-    import mimetypes                                           # <-- NEW
-    mimetypes.add_type("application/javascript", ".js", True)
+# def show_toolbar(request):           # <-- NEW
+#     return True                      # <-- NEW
+#
+#
+# DEBUG_TOOLBAR_CONFIG = {                     # <-- NEW
+#     "SHOW_TOOLBAR_CALLBACK": show_toolbar,   # <-- NEW
+# }                                            # <-- NEW
+#
+# if DEBUG:                                                      # <-- NEW
+#     import mimetypes                                           # <-- NEW
+#     mimetypes.add_type("application/javascript", ".js", True)
 
 
 # Application definition
